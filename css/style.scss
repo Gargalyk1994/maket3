@@ -46,7 +46,10 @@ $color_text2: #ffffff;
     cursor: pointer;
 }
 
-
+html {
+    scroll-behavior: smooth;
+    transition: 0.5s ease;
+}
 
 body{
     font-family: "OpenSans Regular", sans-serif;
